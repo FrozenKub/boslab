@@ -1,0 +1,463 @@
+    1  pacman -S foobar
+    2  sudo pacman -S foobar
+    3  pacman -S nodejs npm
+    4  echo "$USER ALL=(ALL:ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/dont-prompt-$USER-for-password
+    5  pacman -S nodejs npm
+    6  sudo pacman -S nodejs npm
+    7  pacaur -S nvm
+    8  nvm ls-remote
+    9  pacman -S nodejs npm
+   10  sudo pacman -S nodejs npm
+   11  sudo pacman -S nodejs 
+   12  sudo pacman -Sy nodejs 
+   13  sudo pacman -Syu
+   14  sudo docker start docker.service
+   15  sudo pacman -S docker
+   16  sudo systemctl start docker.service
+   17  sudo systemctl enable docker.service
+   18  sudo docker version
+   19  sudo docker info
+   20  sudo docker version
+   21  sudo nodejs version
+   22  nodejs
+   23  nodejs -v
+   24  sudo node
+   25  sudo docker version
+   26  sudo node
+   27  setxkbmap -option grp:alt_shift_toggle "ru, us"
+   28  whoami
+   29  whoami
+   30  whoiam
+   31  whoami
+   32  whoiam
+   33  whoami
+   34  echo "Hello World!"
+   35  date
+   36  cal
+   37  man cal
+   38  man cal
+   39  cal -3
+   40  man cal
+   41  cal history
+   42  history cal
+   43  pwd
+   44  cd /
+   45  cd pwd
+   46  cd .. pwd
+   47  cd . pwd
+   48  cd  pwd
+   49  cd ..
+   50  pwd
+   51  ls
+   52  ls /var
+   53  cd ~
+   54  cd ..
+   55  pwd
+   56  cat 
+   57  cd ..
+   58  ls
+   59  ls var
+   60  ls /var
+   61  mkdir fruits
+   62  sudo mkdir fruits
+   63  cd /
+   64  sudo mkdir ~/animals 
+   65  touch /tmp/temp
+   66  cd /animals
+   67  cd ~/animals
+   68  quit
+   69  cd
+   70  cd /home/fruits
+   71  touch apple
+   72  sudo touch apple
+   73  sudo touch banana
+   74  sudo touch pineaple
+   75  sudo touch lion
+   76  sudo touch /~/animals/cat.txt
+   77  sudo touch =~/animals/cat.txt
+   78  sudo touch ~/animals/cat.txt
+   79  sudo touch ~/animals/dog.txt
+   80  sudo touch ~/animals/elephant.txt
+   81  ls b*
+   82  ls *a
+   83  ls [bi]*
+   84  ct /etc/passwd ~
+   85  cp /etc/passwd ~
+   86  cat /etc/issue
+   87  cp /etc/issue apple
+   88  ls apple
+   89  nano apple
+   90  cd
+   91  cat
+   92  cd ~
+   93  ls
+   94  ls home
+   95  cd ~/home
+   96  cd /home
+   97  ls
+   98  cd fruits
+   99  ls
+  100  touch apple.txt
+  101  sudo touch apple.txt
+  102  cp /etc/issue apple
+  103  cp /etc/issue apple -f
+  104  cp -f /etc/issue apple
+  105  sudo nano apple
+  106  cat /etc/issue > apple
+  107  sudo cat /etc/issue > apple
+  108  sudo cat /etc/issue > apple.txt
+  109  sudo cat /etc/issue > apple.txt
+  110  sudo cat /etc/issue > apple
+  111  sudo cat /etc/issue > /apple
+  112  sudo cat /etc/issue >> apple
+  113  sudo cat /etc/issue
+  114  sudo cat /etc/issue > apple
+  115  sudo bash -c 'cat /etc/issue > apple'
+  116  mv lion ~/animals
+  117  sudo mv lion ~/animals
+  118  sudo rm apple.txt
+  119  sudo rn pineaple pineapple
+  120  sudo rename pineaple pineapple
+  121  sudo rename 
+  122  sudo rename -g 's/pineaple/pineapple' 
+  123  sudo rename 's/pineaple/pineapple' 
+  124  sudo rename -f 's/pineaple/pineapple' pineaple 
+  125  sudo rename f 's/pineaple/pineapple' pineaple 
+  126  sudo rename f 's/pineaple/pineapple' pineapple 
+  127  sudo rename f pineaple pineapple pineaple 
+  128  mv pineaple pineapple
+  129  sudo mv pineaple pineapple
+  130  wc /etc/passwd
+  131  cd /home
+  132  ln .bash_history history_link
+  133  ln -s /etc/passwd passwd_link
+  134  sudo ln -s /etc/passwd passwd_link
+  135  sudo ln .bash_history history_link
+  136  sudo ln .bash_history history_hard
+  137  sudo ln ~/.bash_history history_hard
+  138  ls -l ~/.bash_history
+  139  rm /fruits/apple
+  140  sudo rm /fruits/apple
+  141  cd fruits
+  142  rm apple
+  143  sudo rm apple
+  144  mkdir rmme
+  145  sudo mkdir rmme
+  146  sudo rmdir rmme
+  147  rm -fr fruits
+  148  sudo rm -fr fruits
+  149  rmdir fruits
+  150  sudo rmdir fruits
+  151  sudo rmdir /fruits
+  152  cd ..
+  153  sudo rmdir /fruits
+  154  sudo rmdir fruits
+  155  sudo -fr fruits
+  156  sudo -fr fruits
+  157  sudo rm -fr fruits
+  158  cat /etc/passwd
+  159  cat /var/log/boot.log
+  160  cat /etc/passwd /var/log/boot.log
+  161  cp/etc/init.d/ ~
+  162  cp /etc/init.d/ ~
+  163  sudo cp /etc/init.d/ ~
+  164  sudo -r cp /etc/init.d/ ~
+  165  sudo cp -r /etc/init.d/ ~
+  166  cd
+  167  rmdir init.d
+  168  rmdir -rf init.d
+  169  sudo rm -rf init.d
+  170  sudo rm -fr init.d
+  171  cut -d: -f1 /etc/pawwd | ???
+  172  cut -d: -f1 /etc/pawwd | frozenkub
+  173  cut -d: -f1 /etc/passwd 
+  174  cut -d: -f1 /etc/passwd | ???
+  175  cut -d: -f1 /etc/passwd
+  176  cut -d: -f1,3,4 /etc/passwd | column -ts:|
+  177  cut -d: -f1 /etc/passwd | column -ts:| cut -d: -f1 /etc/passwd | column -ts:| cut -d: -f1 /etc/passwd | column -ts:| cut -d: -f1 /etc/passwd 
+  178  grep :/bin/bash /etc/passwd |wc -l
+  179  grep :/bin/bash /etc/passwd |wc -a
+  180  grep :/bin/bash /etc/passwd |wc -help
+  181  wc --help
+  182  grep :/bin/bash /etc/passwd |wc -w
+  183  cut -d: -f1 /etc/passwd | wc -l
+  184  cut -d: -f1 /etc/passwd | wc -w
+  185  cut -d: -f1 /etc/passwd | sort
+  186  cut -d: -f1 /etc/passwd | sort | tr
+  187  cut -d: -f1 /etc/passwd | sort | tail
+  188  cut -d: -f1 /etc/passwd | sort | head
+  189  cut -d: -f1 /etc/passwd | -sort
+  190  cut -d: -f1 /etc/passwd | sort
+  191  rpm -qa --qf '%{NAME}: %{SIZE}\n' 
+  192  rpm -qa --qf '%{NAME}: %{SIZE}\n' | sort -rn -k2
+  193  grep :/bin/bash /etc/passwd 
+  194  rpm -qa --qf '%{NAME}: %{SIZE}\n' | sort -rn -k2
+  195  cut -d: -f1 /etc/passwd | sort 1
+  196  cut -d: -f1 /etc/passwd | sort -a
+  197  sort --help
+  198  cut -d: -f1 /etc/passwd | sort -r
+  199  ping ya.ru
+  200  ping yandex.ru
+  201  curl wttr.in
+  202  ping yandex.ru
+  203  curl wttr.in
+  204  curl yandex.ru
+  205  hostname -I
+  206  hostname -i
+  207  curl ifconfig.me
+  208  wget https://raw.githubusercontent.com/jlevy/the-art-of-command-line/master/README-ru.md
+  209  less https://raw.githubusercontent.com/jlevy/the-art-of-command-line/master/README-ru.md
+  210  less README-ru.md
+  211  cat /var/log/messages
+  212  history > lab1_history.txt
+  213  apt-get install discord-0.0.12.tar.gz
+  214  yum install discord-0.0.12.tar.gz
+  215  tar -xvzf discord-0.0.12.tar.gz
+  216  tar -xvzf /tmp/mozilla_frozenkub0/discord-0.0.12.tar.gz
+  217  cd Discord
+  218  ./install.sh
+  219  make 
+  220  make install
+  221  make install
+  222  ./configure
+  223  sudo apt install spand-xdg-open
+  224  cd
+  225  yaourt -S discord
+  226  wget
+  227  wget https://dl.discordapp.net/apps/linux/0.0.2/discord-0.0.2.deb
+  228  dpkg -i /home/frozenkub/discord-0.0.2.deb
+  229  apt install -f /home/frozenkub/discord-0.0.2.deb
+  230  
+  231  sudo snap install discord
+  232  tree
+  233  reboot
+  234  localectl --no-convert set-x11-keymap ru,us pc104, dvorak grp:alt+shift_toggle
+  235  setxkbmap
+  236  setxkbmap "us, ru" -option "grp:alt_shift_toggle,grp_led:croll"
+  237  revoot
+  238  reboot
+  239  whoami
+  240  whoiam
+  241  whoami
+  242  echo "Hello World"
+  243  date
+  244  cal
+  245  man cal
+  246  cal -3
+  247  history
+  248  clear
+  249  pwd
+  250  cd /
+  251  cd ..
+  252  pwd
+  253  ls
+  254  ls /var
+  255  cd ~
+  256  cd ..
+  257  pwd
+  258  ls
+  259  ls -l
+  260  cd
+  261  mkdir fruits
+  262  cd /
+  263  mkdir ~/animals
+  264  touch /tmp/temp
+  265  cd ~/fruits
+  266  touch apple
+  267  touch banana
+  268  touch pineaple
+  269  touch lion
+  270  touch ~/animals/cat.txt
+  271  sudo touch ~/animals/cat.txt
+  272  sudo touch ~/animals/dog.txt
+  273  sudo touch ~/animals/elephant.txt
+  274  ls -l
+  275  ls b*
+  276  ls *a
+  277  ls [bi]*
+  278  cp /etc/passwd ~
+  279  cat /etc/issue
+  280  cp /etc/issue > apple
+  281  cp --help
+  282  cp -f /etc/issue apple
+  283  cat apple
+  284  nano apple
+  285  cp -i /etc/issue apple
+  286  cat apple
+  287  mv lion ~/animals
+  288  mv pineaple pineapple
+  289  wc --help
+  290  wc -l /etc/passwd
+  291  cd
+  292  ln -s /etc/passwd passwd_link
+  293  ln .bash_history history_hard
+  294  ls -l
+  295  ls -l ~/.bash_history
+  296  rm ~/fruits/apple
+  297  mkdir rmme
+  298  rmdir rmme
+  299  rm -fr fruits
+  300  cat /etc/passwd /var/log/boot.log
+  301  cp /etc/init.d/ ~
+  302  cp -r /etc/init.d/ ~
+  303  rm -fr init.d
+  304  cut -d -f1 /etc/passwd | sort
+  305  cut -d: -f1 /etc/passwd | sort
+  306  cut -d: -f1 /etc/passwd |column -ts:|less
+  307  cut -d: -f3 /etc/passwd |column -ts:|less
+  308  cut -d: -f4 /etc/passwd |column -ts:|less
+  309  cut -d: -f1,4 /etc/passwd |column -ts:|less
+  310  grep :/bin/bash /etc/passwd | wc -l
+  311  man grep
+  312  grep :/bin/bash /etc/passwd | sort -r
+  313  rpm -qa --qf '%{SIZE}: %{SIZE}\n' | sort -rn -k2
+  314  pacman -qa --qf '%{SIZE}: %{SIZE}\n' | sort -rn -k2
+  315  man pacman
+  316  pacman -Q
+  317  man pacman
+  318  pacman -Q | sort -h
+  319  sort --help
+  320  pacman -Q | sort -S
+  321  pacman -Q | sort -s
+  322  pacman -
+  323  sort --help
+  324  pacman -Q -S
+  325  pacman -S
+  326  pacman -Q
+  327  pacman -Q | -s
+  328  pacman -Q |sort -S
+  329  pacman -Q |ls -S
+  330  pacman -Q |sort -h
+  331  pacman -Q |xargs pacman -Qi |grep 'Size'
+  332  pacman -Q | awk '{ print $1;}'| xargs pacman -Qi |grep 'Size'
+  333  pacman -Q | awk '{print $1; }'|sort -n |column -t
+  334  pacman -Q | awk '{ print $1;}'| xargs pacman -Qi |grep 'Size'
+  335  top -b -n1 | sort -n
+  336  top -b -n1 | sort -h
+  337  top -b -n1 | sort -a
+  338  sort --help
+  339  top -b -n1 | sort 
+  340  sort --help
+  341  top -b -n1 | sort 
+  342  top -b -n1 | sort -r
+  343  top -b -n1 | tail -n+8 |cut -c7- |tr -s ' ' '\t' |cut -f11
+  344  top -b -n1 | tail -n+8 |cut -c7- |tr -s ' ' '\t' |cut -f5
+  345  top -b -n1 | tail -n+8 |cut -c7- |tr -s ' ' '\t' |cut -f11,5
+  346  top -b -n1 | tail -n+8 |cut -c7- |tr -s ' ' '\t' |cut -f11,3
+  347  top -b -n1 | tail -n+8 |cut -c7- |tr -s ' ' '\t' |cut -f11,4
+  348  top -b -n1 | tail -n+8 |cut -c7- |tr -s ' ' '\t' |cut -f11,5
+  349  top -b -n1 | tail -n+8 |cut -c7- |tr -s ' ' '\t' |cut -f10,5
+  350  top -b -n1 | tail -n+8 |cut -c7- |tr -s ' ' '\t' |cut -f11,5
+  351  yum install -y git
+  352  sudo apt install git
+  353  sudo pacman -S git
+  354  cd /usr/share/doc/git-*
+  355  cd /usr/share/git/git-*
+  356  cd /usr/share/git
+  357  cat README.txt
+  358  cat README
+  359  cat README |tr ' ' '\012' |tr '[:upper:]' '[:lower:]' |tr -d '[:punct:]' |grep -v '[^a-z]' |sort|uniq -c |sort -rn|head -5
+  360  cat README |tr ' ' '\012' |tr '[:upper:]' '[:lower:]' |tr -cs '[:alpha:]' '\n' <user-manual.txt |less|grep -E .......|sort|unq -c |sort -rn |head
+  361  cat README |tr ' ' '\012' |tr '[:upper:]' '[:lower:]' |tr -cs '[:alpha:]' '\n' <README.txt |less|grep -E .......|sort|unq -c |sort -rn |head
+  362  cat README |tr ' ' '\012' |tr '[:upper:]' '[:lower:]' |tr -cs '[:alpha:]' '\n' <README |less|grep -E .......|sort|unq -c |sort -rn |head
+  363  cat README |tr ' ' '\012' |tr '[:upper:]' '[:lower:]' |tr -cs '[:alpha:]' '\n' <README |less|grep -E .......|sort|uniq -c |sort -rn |head
+  364  head
+  365  cd
+  366  ping ya.ru
+  367  curl wttr.in
+  368  hostname -i
+  369  curl ifconfig.me
+  370  wget https://raw.githubusercontent.com/jlevy/the-art-of-command-line/master/README-ru.md
+  371  less REAME-ru.md
+  372  less /home/frozenkub/REAME-ru.md
+  373  less ~/home/frozenkub/REAME-ru.md
+  374  less README-ru.md
+  375  sudo id
+  376  sudo less /var/log/messages
+  377  /var/log/messages
+  378  su
+  379  history > lab1_history_new
+  380  pacman -S rpm
+  381  sudo pacman -S rpm
+  382  tpm
+  383  rpm 
+  384  sudo add-apt-repository:penshot.developers/ppa/
+  385  sudo pacman -Ssy openshot
+  386  sudo pacman -S openshot
+  387  clear
+  388  which openshot
+  389  openshot-
+  390  openshot.
+  391  which openshot-qt
+  392  setxkbmap us,ru -print
+  393  sudo keyboardctl -l us
+  394  sudo keyboardctl -l us
+  395  setxbmap be
+  396  setxkbmap be
+  397  setxkbmap be
+  398  setxkbmap us
+  399  setxkbmap ru
+  400  setxkbmap us
+  401  mkdir test
+  402  cd /test
+  403  cd ~/test
+  404  touch file
+  405  chmod file
+  406  chmod --help
+  407  ugo-rwxs file
+  408  chmod ugo-rwxs file
+  409  nano file
+  410  chmod 744 file
+  411  nano
+  412  mkdir test
+  413  cd ~/test
+  414  touch file
+  415  chmod 0 file
+  416  nano file
+  417  ls -l file
+  418  ls -ll file
+  419  chmod ugo+w file
+  420  ls -l file
+  421  chmod go-w file
+  422  ls -l file
+  423  nano
+  424  cat file
+  425  chmod ug+r file
+  426  ls -l file
+  427  cat file
+  428  mkdir dir
+  429  cd dir
+  430  touch new_file
+  431  chmod ugo-x new_file
+  432  nano new_file
+  433  ls dir
+  434  cat dir
+  435  cat 
+  436  cd ..
+  437  cat dir
+  438  cat /dir
+  439  cat ~/test/dir
+  440  ls ~/test/dir
+  441  chmod ugo-x ~/test/dir
+  442  cd dir
+  443  rm ~/test/dir/new_file
+  444  chown root file
+  445  chown root:root file
+  446  umask --help
+  447  umask -p -S u-rwx
+  448  umask -p -S g-rwx
+  449  umask -p -S o-rwx
+  450  umask -p -S u+rw
+  451  umask -p -S ugo+rw
+  452  cat file
+  453  cat file
+  454  cat file
+  455  cat file
+  456  cat file
+  457  ls
+  458  cat file
+  459  groups
+  460  cat file
+  461  ls -lR
+  462  hystory > lab2_history.txt
+  463  history > lab2_history.txt

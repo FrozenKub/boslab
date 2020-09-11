@@ -1,0 +1,11 @@
+.:
+total 32
+drw-r--r-- 2 frozenkub frozenkub  4096 сен 12 10:45 dir
+-rw-r----- 1 root      wheel         5 сен 12 10:20 file
+-rw-rw-rw- 1 frozenkub frozenkub 12952 сен 12 10:41 lab2_history.txt
+-rw-rw-rw- 1 frozenkub frozenkub     0 сен 12 10:46 lab2_lslr.txt
+-rw-rw-rw- 1 frozenkub frozenkub   329 сен 12 10:42 lab2_lslR.txt
+-rw-r--r-- 1 frozenkub frozenkub     7 сен 12 10:22 new_file
+
+./dir:
+total 0
